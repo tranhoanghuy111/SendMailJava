@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0E0E6"
+    tools:context=".SendMailActivity">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="346dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg"
+        android:ems="10"
+        android:hint="To:"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="349dp"
+        android:layout_height="39dp"
+        android:background="@drawable/bg"
+        android:ems="10"
+        android:hint="Subject:"
+        android:padding="5dp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/editText5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="416dp"
+        android:layout_height="153dp"
+        android:background="#ffffff"
+        android:hint="Compose mail:"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:paddingBottom="95dp"
+        android:paddingLeft="15dp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="141dp"
+        android:layout_height="52dp"
+        android:background="@drawable/bg"
+        android:text="Send Email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="108dp"
+        android:layout_height="95dp"
+        android:src="@drawable/gmail"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

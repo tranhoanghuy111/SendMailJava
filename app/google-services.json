@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "93286020449",
+    "project_id": "db-android-afbcd",
+    "storage_bucket": "db-android-afbcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93286020449:android:2c972fcf67e9f31461c120",
+        "android_client_info": {
+          "package_name": "com.tranetech.openspace.sendmail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93286020449-1e4sj9i6k28i8n71iqvja32id58sho6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK7aJJTu9U8PT_fFWTre1c7SYSuGvPZNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93286020449-1e4sj9i6k28i8n71iqvja32id58sho6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
